@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  registry:
+    image: registry:2
+    container_name: private_registry
+    restart: always
+    ports:
+      - "5001:5000"
+    environment:
+      REGISTRY_AUTH: htpasswd
+      REGISTRY_AUTH_HTPASSWD_REALM: Registry Realm
+      REGISTRY_AUTH_HTPASSWD_PATH: /auth/htpasswd
+      REGISTRY_STORAGE_DELETE_ENABLED: "true"
+      REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /var/lib/registry
+    volumes:
+      - ./registry/data:/var/lib/registry
+      - ./auth:/auth
+
+  backend:
+    build:
+      context: ./backend
+    container_name: flask_backend
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./auth:/auth 
+    depends_on:
+      - registry

@@ -1,0 +1,70 @@
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T09:15:04.166543"}
+{"method": "GET", "path": "/ping", "status": 200, "timestamp": "2025-05-26T09:15:27.835860"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T09:15:31.984863"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T09:22:53.276575"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T09:22:57.643765"}
+{"method": "POST", "path": "/users", "status": 201, "timestamp": "2025-05-26T09:23:47.123997"}
+{"method": "GET", "path": "/users/newuser", "status": 405, "timestamp": "2025-05-26T09:24:11.370200"}
+{"method": "GET", "path": "/images/my-nginx/tags", "status": 200, "timestamp": "2025-05-26T09:24:20.473482"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T09:24:25.749755"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T09:24:32.210538"}
+{"method": "GET", "path": "/ping", "status": 200, "timestamp": "2025-05-26T10:23:36.946940", "user": "admin"}
+{"method": "POST", "path": "/users", "status": 201, "timestamp": "2025-05-26T10:23:45.548236", "user": "admin"}
+{"method": "DELETE", "path": "/users/testuser", "status": 200, "timestamp": "2025-05-26T10:23:52.021820", "user": "admin"}
+{"method": "GET", "path": "/images", "status": 200, "timestamp": "2025-05-26T10:24:11.217898", "user": "admin"}
+{"method": "GET", "path": "/images/my-nginx/tags", "status": 200, "timestamp": "2025-05-26T10:24:18.760498", "user": "admin"}
+{"method": "DELETE", "path": "/images/my-nginx/tags/latest", "status": 200, "timestamp": "2025-05-26T10:24:38.223602", "user": "admin"}
+{"method": "DELETE", "path": "/images/my-nginx", "status": 200, "timestamp": "2025-05-26T10:24:41.641524", "user": "admin"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T10:24:47.604043", "user": "admin"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T10:24:52.667583", "user": "admin"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T10:24:58.925968", "user": "admin"}
+{"method": "POST", "path": "/users", "status": 201, "timestamp": "2025-05-26T10:32:41.406939", "user": "admin"}
+{"method": "POST", "path": "/users", "status": 201, "timestamp": "2025-05-26T10:32:46.713096", "user": "admin"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T10:32:53.000095", "user": "admin"}
+{"method": "DELETE", "path": "/users/ghost", "status": 404, "timestamp": "2025-05-26T10:33:01.938044", "user": "admin"}
+{"method": "DELETE", "path": "/users/user1", "status": 200, "timestamp": "2025-05-26T10:33:06.260246", "user": "admin"}
+{"method": "GET", "path": "/ping", "status": 200, "timestamp": "2025-05-26T10:33:10.326470", "user": "user2"}
+{"method": "GET", "path": "/images", "status": 200, "timestamp": "2025-05-26T10:33:38.854581", "user": "user2"}
+{"method": "GET", "path": "/images/my-nginx/tags", "status": 200, "timestamp": "2025-05-26T10:33:44.479591", "user": "user2"}
+{"method": "DELETE", "path": "/images/my-nginx/tags/ghost", "status": 404, "timestamp": "2025-05-26T10:33:48.230380", "user": "user2"}
+{"method": "DELETE", "path": "/images/my-nginx/tags/tag1", "status": 200, "timestamp": "2025-05-26T10:33:53.253103", "user": "user2"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T10:33:58.807063", "user": "user2"}
+{"method": "DELETE", "path": "/images/my-nginx", "status": 200, "timestamp": "2025-05-26T10:34:02.314124", "user": "user2"}
+{"method": "GET", "path": "/images", "status": 200, "timestamp": "2025-05-26T10:34:06.078515", "user": "user2"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T10:34:13.638556", "user": "admin"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T10:34:16.373384", "user": "admin"}
+{"method": "GET", "path": "/images", "status": 200, "timestamp": "2025-05-26T10:35:37.559873", "user": "user2"}
+{"method": "POST", "path": "/users", "status": 201, "timestamp": "2025-05-26T10:41:55.416475", "user": "admin"}
+{"method": "DELETE", "path": "/users/user1", "status": 200, "timestamp": "2025-05-26T10:42:00.518534", "user": "admin"}
+{"method": "DELETE", "path": "/images/my-nginx/tags/tag1", "status": 200, "timestamp": "2025-05-26T10:42:29.235502", "user": "user2"}
+{"method": "DELETE", "path": "/images/my-nginx", "status": 200, "timestamp": "2025-05-26T10:42:35.355192", "user": "user2"}
+{"method": "POST", "path": "/images/gc", "status": 500, "timestamp": "2025-05-26T10:42:44.133751", "user": "admin"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T10:42:50.192838", "user": "admin"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T10:42:56.248312", "user": "admin"}
+{"method": "POST", "path": "/users", "status": 201, "timestamp": "2025-05-26T10:45:38.860183", "user": "admin"}
+{"method": "POST", "path": "/users", "status": 201, "timestamp": "2025-05-26T10:45:38.888617", "user": "admin"}
+{"method": "DELETE", "path": "/users/nonexistent", "status": 404, "timestamp": "2025-05-26T10:45:42.079952", "user": "admin"}
+{"method": "DELETE", "path": "/users/user1", "status": 200, "timestamp": "2025-05-26T10:45:50.179978", "user": "admin"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T10:45:53.530402", "user": "admin"}
+{"method": "GET", "path": "/images", "status": 200, "timestamp": "2025-05-26T10:46:03.718220", "user": "user2"}
+{"method": "GET", "path": "/images/my-nginx/tags", "status": 200, "timestamp": "2025-05-26T10:46:07.785116", "user": "user2"}
+{"method": "DELETE", "path": "/images/my-nginx/tags/ghost", "status": 404, "timestamp": "2025-05-26T10:46:15.243015", "user": "user2"}
+{"method": "DELETE", "path": "/images/my-nginx/tags/tag1", "status": 200, "timestamp": "2025-05-26T10:46:24.062407", "user": "user2"}
+{"method": "DELETE", "path": "/images/my-nginx", "status": 200, "timestamp": "2025-05-26T10:46:30.303185", "user": "user2"}
+{"method": "POST", "path": "/images/gc", "status": 500, "timestamp": "2025-05-26T10:46:42.309266", "user": "admin"}
+{"method": "GET", "path": "/ping", "status": 200, "timestamp": "2025-05-26T10:52:34.704235", "user": "admin"}
+{"method": "POST", "path": "/users", "status": 201, "timestamp": "2025-05-26T10:52:41.446215", "user": "admin"}
+{"method": "POST", "path": "/users", "status": 201, "timestamp": "2025-05-26T10:52:41.479199", "user": "admin"}
+{"method": "DELETE", "path": "/users/nonexistent", "status": 404, "timestamp": "2025-05-26T10:52:45.663651", "user": "admin"}
+{"method": "DELETE", "path": "/users/user1", "status": 200, "timestamp": "2025-05-26T10:52:45.684236", "user": "admin"}
+{"method": "GET", "path": "/images", "status": 401, "timestamp": "2025-05-26T10:52:53.460942", "user": "wrong"}
+{"method": "GET", "path": "/ping", "status": 200, "timestamp": "2025-05-26T10:52:53.509686", "user": "user2"}
+{"method": "GET", "path": "/images", "status": 200, "timestamp": "2025-05-26T10:53:53.769390", "user": "user2"}
+{"method": "GET", "path": "/images/my-nginx/tags", "status": 200, "timestamp": "2025-05-26T10:53:53.797630", "user": "user2"}
+{"method": "DELETE", "path": "/images/my-nginx/tags/ghost", "status": 404, "timestamp": "2025-05-26T10:53:58.700939", "user": "user2"}
+{"method": "DELETE", "path": "/images/my-nginx/tags/tag1", "status": 200, "timestamp": "2025-05-26T10:54:02.481097", "user": "user2"}
+{"method": "DELETE", "path": "/images/my-nginx", "status": 200, "timestamp": "2025-05-26T10:54:05.151391", "user": "user2"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T10:54:09.450442", "user": "admin"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T10:54:11.837375", "user": "admin"}
+{"method": "GET", "path": "/audit", "status": 200, "timestamp": "2025-05-26T10:54:14.885955", "user": "admin"}
+{"method": "POST", "path": "/images/gc", "status": 405, "timestamp": "2025-05-26T10:54:18.271690", "user": "admin"}
