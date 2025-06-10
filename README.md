@@ -30,14 +30,5 @@ htpasswd 생성을 위한 패키지
 
 
 # 디렉토리 구조
-private-registry/
-├── auth/
-├── backend/
-│   ├── app.py
-│   ├── audit.log
-│   ├── registry_api.py
-│   ├── requirements.txt
-│   └── Dockerfile
-├── registry/
-│   └── data/
-├── docker-compose.yml
+<img width="582" alt="스크린샷 2025-06-10 오후 2 44 56" src="https://github.com/user-attachments/assets/7e330146-5267-460b-87e0-5d73e81f186c" />
+
